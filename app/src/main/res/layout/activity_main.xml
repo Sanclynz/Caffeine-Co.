@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:ignore="UseCompoundDrawables"
+    android:background="#ffd2b1"
+    >
+
+
+    <ImageView
+        android:id="@+id/imgSplashPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/splashlogo"
+        android:layout_marginTop="100dp"
+        android:layout_centerHorizontal="true"
+        android:contentDescription="@string/todo" />
+
+    <TextView
+        android:id="@+id/txtSplashText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:fontFamily="@font/allura"
+        android:text="Caffeine Co."
+        android:textColor="#762f15"
+        android:textSize="60sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtSplashTexSubHeadert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@id/txtSplashText"
+        android:fontFamily="@font/allura"
+        android:text="The Best Choice For you"
+        android:textColor="#c19185"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+
+
+
+</RelativeLayout>

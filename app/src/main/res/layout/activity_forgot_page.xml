@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff">
+
+    <ImageView
+        android:id="@+id/imgCup"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:src="@drawable/cup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"/>
+
+    <TextView
+        android:id="@+id/txtRegister"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imgCup"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/abhaya_libre"
+        android:text="Enter your Registered Mobile Number and Email Below :"
+        android:textColor="#70320d"
+        android:textSize="16sp" />
+
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Email Address"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:layout_below="@id/etMobileNumber"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:inputType="textEmailAddress"
+        android:maxLines="1"
+        />
+
+    <EditText
+        android:id="@+id/etMobileNumber"
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:hint="Mobile Number (10 digits)"
+        android:textColor="#000000"
+        android:padding="10dp"
+        android:layout_below="@id/imgCup"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:inputType="phone"
+        android:maxLines="1"
+        android:maxLength="10"
+        />
+
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btnNext"
+        android:layout_width="380dp"
+        android:layout_height="55dp"
+        android:layout_below="@id/etEmail"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#8a544c"
+        android:fontFamily="@font/amethysta"
+        android:text="Next"
+        android:textColor="#ffffff"
+        android:textStyle="bold" />
+
+</RelativeLayout>

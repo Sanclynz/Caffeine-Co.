@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FoodHub</string>
+    <string name="foodhub">FoodHub</string>
+    <string name="todo">TODO</string>
+    <string name="preference_file" />
+</resources>
